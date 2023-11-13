@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <label>First Name : </label>
+            <input id="firstname">
+        </div>
+        <div>
+            <label>Last Name : </label>
+            <input id="lastname">
+        </div>
+        <button onclick="myfunction()">Print Name</button>
+    </div>
+    <p id="demo"></p>
+    <script>
+        function myfunction() {
+            var fn = document.getElementById("firstname").value;
+            var ln = document.getElementById("lastname").value;
+            // alert("Hello " + fn + ln)
+            document.getElementById("demo").innerHTML = fn + " " + ln;
+        }
+    </script>
+</body>
+
+</html>
