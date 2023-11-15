@@ -1,0 +1,23 @@
+<!-- 3. **Question 3: Handling Click Events**
+   - Implement a button with the id "clickBtn". When clicked, change the text content of a paragraph with the id "clickPara" to "Button Clicked!". -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="textBtn" onclick="TextGenerator()">Click me</button>
+    <p id="clickPara"></p>
+    <script>
+        function TextGenerator() {
+            document.getElementById("clickPara").innerHTML = "Button Clicked"
+        }
+    </script>
+</body>
+
+</html>

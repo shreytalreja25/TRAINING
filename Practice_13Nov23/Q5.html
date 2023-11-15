@@ -1,0 +1,30 @@
+<!-- 5. **Question 5: Toggling Visibility**
+   - Make a button with the id "toggleBtn" and a div with the id "toggleDiv". Clicking the button should toggle the visibility of the div (show/hide). -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="toggleBtn" onclick="hideorshow()">Toggle Button</button>
+    <div id="colordiv" style="background-color: aqua; height: 100%;">DIV TO TOGGLE</div>
+
+    <script>
+        function hideorshow() {
+            var div = document.getElementById("colordiv");
+            if (div.style.display === true) {
+                div.style.display === false;
+            } else if(div.style.display === false) {
+                div.style.display === true;
+            }
+        }
+    </script>
+</body>
+
+</html>

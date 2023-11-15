@@ -1,0 +1,29 @@
+1. **Question 1: Changing Text Content**
+   - Create an HTML paragraph element with the id "demo". Using JavaScript, change the text content of this paragraph to "Hello, World!".
+
+2. **Question 2: Styling Elements**
+   - Have a button with the id "styleBtn" and a div with the id "styledDiv". On button click, change the background color of the div to blue using JavaScript.
+
+3. **Question 3: Handling Click Events**
+   - Implement a button with the id "clickBtn". When clicked, change the text content of a paragraph with the id "clickPara" to "Button Clicked!".
+
+4. **Question 4: Adding Elements**
+   - Create a function that appends a new list item to an unordered list with the id "myList" every time it is called. Initially, the list should be empty.
+
+5. **Question 5: Toggling Visibility**
+   - Make a button with the id "toggleBtn" and a div with the id "toggleDiv". Clicking the button should toggle the visibility of the div (show/hide).
+
+6. **Question 6: Input Value Retrieval**
+   - Create an input field with the id "inputField" and a button with the id "getInputBtn". When the button is clicked, retrieve the value from the input field and display it in an alert.
+
+7. **Question 7: Mouse Hover Effect**
+   - Apply a mouseover event to an image with the id "hoverImg". On hover, change the image source to a different image.
+
+8. **Question 8: Form Validation**
+   - Create a simple form with an input field (id: "usernameInput") and a submit button (id: "submitBtn"). Display an alert if the input field is empty upon clicking the submit button.
+
+9. **Question 9: Selecting Elements by Class**
+   - Have three div elements with the class "colorBox". On page load, change the background color of all these divs to different colors using JavaScript.
+
+10. **Question 10: Creating a Countdown**
+    - Implement a countdown timer that starts from 10 and updates a paragraph with the id "countdown" every second until it reaches 0.

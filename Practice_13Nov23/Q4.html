@@ -1,0 +1,33 @@
+<!-- 4. **Question 4: Adding Elements**
+   - Create a function that appends a new list item to an unordered list with the id "myList" every time it is called. Initially, the list should be empty. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <button onclick="additem()">Add Items</button>
+        <ul id="myList" >
+            <!-- <li>1</li>
+            <li>2</li>
+            <li>3</li> -->
+        </ul>
+    </div>
+    <script>
+        function additem() {
+            var list = document.getElementById("myList");
+            var item = document.createElement("li");
+            item.appendChild(document.createTextNode("New LI"))
+            list.appendChild(item)
+        }
+
+    </script>
+</body>
+
+</html>
